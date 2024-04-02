@@ -18,11 +18,11 @@
     <?php 
   if(isset($_GET["dare"])){
     echo "DARE <br>";
-  tampildare();
+  tampildare3();
   };
 if(isset($_GET["truth"])){
     echo "DARE <br>";
-    tampiltruth();
+    tampiltruth3();
    };
   ?>
     

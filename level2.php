@@ -12,19 +12,21 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>  
   <div class="container">
     <h1>Truth or Dare</h1>
     <?php 
-  if(isset($_GET["dare"])){
-    echo "DARE <br>";
-  tampildare();
-  };
-if(isset($_GET["truth"])){
-    echo "DARE <br>";
-    tampiltruth();
-   };
-  ?>
+
+if(isset($_GET["dare"])){
+  echo "DARE <br>";
+  tampildare2();
+} elseif(isset($_GET["truth"])){
+  echo "TRUTH <br>";
+  tampiltruth2();
+}
+?>
+
     
     <div class="pilihan">
     <form action="" method="get">
